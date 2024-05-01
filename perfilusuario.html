@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JAVASCRIPT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form> 
+        <!--Para nombre-->
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre usuario" size="35" >
+        <!--Entrada tipo texto -->
+        <!--el placeholder ee para poner un ejemplo en el recuadro-->
+        <!--<button type="button" onclick="usuario()">Guardar</button>-->
+        <!--Para mandar a llamar la funcion "onclick"-->
+        <input type="text" name="años" id="años" placeholder="Edad " size="35" >
+        <input type="text" name="longitud" id="longitud" placeholder="Número de peliculas favoritas" size="35" >
+       <!-- <input type="button" id="btnmostrar" value="mostrar" onclick="mostrarpelis();">-->
+       
+        
+
+    </form>
+    <script  src="./Perfilusuario.js"></script>
+    <div class="container">
+        <table id="lista">
+            <input type="text" name="pelis" id="pelis"  size="35" >
+        </table>
+    </div>
+
+    <button type="button" onclick="usuario()">Guardar</button>
+    <button type="button" onclick="tablapelis()">mostrar</button>
+</body>
+</html>
+
